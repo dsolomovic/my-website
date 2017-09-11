@@ -8,4 +8,6 @@ class PagesController < ApplicationController
   def contact
     @david = "David"
   end
+
+
 end

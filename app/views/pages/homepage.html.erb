@@ -1,2 +1,108 @@
-<h1>Pages#homepage</h1>
-<p>Find me in app/views/pages/homepage.html.erb</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  </head>
+  <body>
+
+
+<div class="topnav">
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+  <a href="#">Home</a>
+</div>
+
+<div class="img-responsive">
+</div>
+
+
+
+<div class="content">
+     <%= image_tag("canva.png", :alt => "profile banner",:class => "img-me") %>
+</div>
+
+<div class="about">
+<h1> Hello World! </h1>
+<p>Welcome, to my Personal Website. I am David Solomovic, a new software developer from Sydney Australia. I am passionate about taking Bussinesses with no to-little online pressence and helping them enter a world of infinite possibilities! I appreciate good design and I am seeing it's importance more then ever in today's Websites and online Advertisments.
+
+I am an aspiring entrepreneur based in the Eastern Suburbs of Sydney. I have been helping family and friends build their small bussines online presence since 2015, specialising in Google Add Word and Website Developtment. I have  become passionate about IT and have recently started studying Software Programing. </p>
+</div>
+
+<div class="established">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-4 block text-center">
+            <p class="circle">Digital Media</p>
+        </div>
+
+        <div class="col-md-4 block">
+            <p class="circle">Online Bussiness Solutions</p>
+        </div>
+
+        <div class="col-md-4 block">
+            <p class="circle">Google Adds and Analetics</p>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<!-- <div class="banner">
+   <%= image_tag("myworld.png", :alt => "profile banner") %>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+  </body>
+</html>

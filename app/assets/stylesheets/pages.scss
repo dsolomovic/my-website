@@ -1,3 +1,164 @@
-// Place all the styles related to the pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+// .video {
+//  position: fixed;
+//  top: 50%; left: 50%;
+//  z-index: 1;
+//  min-width: 50%;
+//  min-height: 50%;
+//  width: 100%;
+//  height: 100px;
+//  transform: translate(-80%, -80%);
+// }
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+   display:run-in;
+   background-color: #333;
+
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+//
+
+
+
+
+
+.img-responsive
+{
+  background: url('main.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: 100%;
+ padding: 355px;
+ width: auto ;
+ background-repeat: no-repeat;
+ }
+
+.content{
+background-color: white;
+height: 117px;
+
+}
+
+.about{
+height:900px;
+padding-left: 50px;
+padding-right: 700px;
+    p{
+    margin-top: 30px;
+    font-family: arial;
+    font-size: 22px;
+    }
+    h1{
+      font-size: 40px;
+
+
+    }
+
+}
+
+.img-me{
+
+width: 1440px;
+height: auto;
+margin-bottom: 400px;
+
+}
+
+
+
+
+ .banner
+ {
+   background-color: #333;
+   padding-left: 40px;
+
+
+
+
+ }
+
+.established{
+  background-color: #333;
+  padding: 50px;
+  margin-top: auto;
+  height: 300px;
+  h2 {
+    color: white;
+    position: centre;
+    text-align: center;
+    font-size: 100px;
+
+  }
+
+  .block{
+           text-align: center;
+           vertical-align: middle;
+           padding-left: 10%;
+           p {
+             padding-top: 33%;
+
+
+           }
+       }
+       .circle{
+           background: #B21B9F;
+           border-radius: 200px;
+           color: #333;
+           height: 200px;
+           font-weight: bold;
+           width: 200px;
+       }
+  p {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+  }
+}
+
+
+.gap1{
+  background-color: lightblue;
+  padding: 10px;
+  height: 100px;
+  margin-top: auto;
+
+}
+
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 40px;
+}

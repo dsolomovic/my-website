@@ -9,5 +9,11 @@ class PagesController < ApplicationController
     @david = "David"
   end
 
+  def blog
+  end
+
+  def resume
+  end
+
 
 end

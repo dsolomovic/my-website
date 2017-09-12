@@ -1,25 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hello World!!
 
-Things you may want to cover:
+I am David Solomovic an aspiring web and software developer.
+this is my personal webpage. I made this app on Ruby on Rails,
+using bootstrap on html and css styles sheets i got form there website.
+i attempted a blog and will upload it in the future.
 
-* Ruby version
+if you want to contact me do so at dsolomovic@gmail.com 
 
-* System dependencies
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
 
 * ...
 # my-website

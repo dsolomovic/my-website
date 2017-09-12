@@ -1,2 +1,72 @@
-<h1>Pages#contact</h1>
-<p>Find me in app/views/pages/contact.html.erb</p>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  </head>
+  <body>
+
+
+    <div class="topnav"><a href="#" id="one"></a>
+
+
+      <%= link_to "Home",root_path, class: "btn btn" %>
+        <%= link_to "Contact", pages_contact_path, class: "btn btn" %>
+
+      <%= link_to image_tag("git1.png"), "https://github.com/dsolomovic", class: "git-image" %>
+    </div>
+
+      <div class="about_top">
+        <h1> CONTACT </h1>
+      </div>
+      <div class="about_mid">
+        <h2> DSOLOMOVIC@GMAIL.COM </h2>
+      </div>
+      <div class="about_bottom">
+
+        <a href="https://www.instagram.com/ds_observations/">
+        <%= image_tag("insta.png", alt: "insta link", class: "insta-image") %>
+        <a>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+      <div class="footer">
+        <p>David Solomovic &#169; 2017 </p>
+
+      </div>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+var i;
+var x = document.getElementsByClassName("mySlides");
+for (i = 0; i < x.length; i++) {
+   x[i].style.display = "none";
+}
+myIndex++;
+if (myIndex > x.length) {myIndex = 1}
+x[myIndex-1].style.display = "block";
+setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>
